@@ -1,0 +1,15 @@
+{
+  "network": {
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "contract_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+  "deployment_transaction": "0x3fb0f746f9def79201aa6438970e2c9a908fea0503b6ef4afb3358990f9dc613",
+  "source": "contracts/copack.py",
+  "source_sha256": "60816f215cf6f52ed19a9cfecc642faeeac2a54aef24aa4011d9a6a5bee0aadf",
+  "source_verified": true,
+  "mode": "NORMAL",
+  "constructor_arguments": [],
+  "sdk": "genlayer-js@1.1.8",
+  "raw_archive_sha256": "3573a62258bf57542bf786a0c63f2e0a27cd5998fb0d67536369847166f12a5d"
+}

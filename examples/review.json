@@ -1,0 +1,12 @@
+{
+  "rules": "Only pairwise rules apply. No co-packing permission or prohibition is stated for any pair; no default permission is given.",
+  "items": [
+    "Object A.",
+    "Object B."
+  ],
+  "sizes": [
+    1,
+    1
+  ],
+  "capacity": 2
+}

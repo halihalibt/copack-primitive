@@ -1,0 +1,14 @@
+{
+  "rules": "Only pairwise restrictions apply. Items marked red may not share a bin with items marked blue. All other pairs are allowed.",
+  "items": [
+    "Item A, red label.",
+    "Item B, blue label.",
+    "Item C, neutral label."
+  ],
+  "sizes": [
+    2,
+    2,
+    1
+  ],
+  "capacity": 3
+}

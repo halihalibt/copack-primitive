@@ -1,0 +1,590 @@
+{
+  "network": {
+    "chain_id": 61999,
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "started_at": "2026-11-09T13:38:08.199Z",
+  "transactions": [
+    {
+      "label": "deploy",
+      "submitted_at": "2026-11-09T13:38:12.587Z",
+      "hash": "0x3fb0f746f9def79201aa6438970e2c9a908fea0503b6ef4afb3358990f9dc613",
+      "receipt": {
+        "hash": "0x3fb0f746f9def79201aa6438970e2c9a908fea0503b6ef4afb3358990f9dc613",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 1,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:38:12.892674+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "consensus_data": {
+          "votes": {
+            "0x1Cd67946A11E6410a3DF1b27d35F4a511e93c882": "idle",
+            "0x37CD8552B86b2B662eCfb69C4A1253dBE41EB4C1": "agree",
+            "0x722474B013fA39E5aA8785f927dCeB0e3F89815B": "idle",
+            "0xe1626534791FC675ED813Cc2C89C427866526113": "agree",
+            "0xe83D7241D0FF0f1f808B9ab3cb06dD2565bDc605": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "optimal:seal",
+      "submitted_at": "2026-11-09T13:38:49.804Z",
+      "hash": "0x25201f3ad80350d6f4371b57ebd57306b4857ccedf2747e0073363ce11c347ab",
+      "receipt": {
+        "hash": "0x25201f3ad80350d6f4371b57ebd57306b4857ccedf2747e0073363ce11c347ab",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:38:50.098858+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTxvcHRpbWFslA97InJ1bGVzIjoiT25seSBwYWlyd2lzZSByZXN0cmljdGlvbnMgYXBwbHkuIEl0ZW1zIG1hcmtlZCByZWQgbWF5IG5vdCBzaGFyZSBhIGJpbiB3aXRoIGl0ZW1zIG1hcmtlZCBibHVlLiBBbGwgb3RoZXIgcGFpcnMgYXJlIGFsbG93ZWQuIiwiaXRlbXMiOlsiSXRlbSBBLCByZWQgbGFiZWwuIiwiSXRlbSBCLCBibHVlIGxhYmVsLiIsIkl0ZW0gQywgbmV1dHJhbCBsYWJlbC4iXSwic2l6ZXMiOlsyLDIsMV0sImNhcGFjaXR5IjozfQZtZXRob2Qkc2VhbA=="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x0174b4D7494Be33F46B76976f6c9F94004F1b27f": "agree",
+            "0x0cf3809a31B0c7E0742d126451aDE1977e3748D2": "agree",
+            "0x37CD8552B86b2B662eCfb69C4A1253dBE41EB4C1": "agree",
+            "0x722474B013fA39E5aA8785f927dCeB0e3F89815B": "agree",
+            "0xC65Ec56a1141866951B34D846be8EF433764A48B": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "optimal:analyze",
+      "submitted_at": "2026-11-09T13:39:32.943Z",
+      "hash": "0x61982976c6d97e574704ab261f2f2354536489ce6ce2a75d7814d087a9d84610",
+      "receipt": {
+        "hash": "0x61982976c6d97e574704ab261f2f2354536489ce6ce2a75d7814d087a9d84610",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:39:33.232713+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTxvcHRpbWFsAQZtZXRob2Q8YW5hbHl6ZQ=="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x0cf3809a31B0c7E0742d126451aDE1977e3748D2": "idle",
+            "0x722474B013fA39E5aA8785f927dCeB0e3F89815B": "idle",
+            "0x8644a8D2D08903cAFA1F0fb28E34E0ecA727e9ED": "agree",
+            "0xC65Ec56a1141866951B34D846be8EF433764A48B": "agree",
+            "0xD0eD149D26E76cf49fB588c970E608E44Dd4DAB8": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "review:seal",
+      "submitted_at": "2026-11-09T13:40:18.701Z",
+      "hash": "0x4b7b66a3a4ffe41663518a14c844608d4b14173bdb28709929c5fbe7da1b6f6a",
+      "receipt": {
+        "hash": "0x4b7b66a3a4ffe41663518a14c844608d4b14173bdb28709929c5fbe7da1b6f6a",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:40:19.008816+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTRyZXZpZXecDHsicnVsZXMiOiJPbmx5IHBhaXJ3aXNlIHJ1bGVzIGFwcGx5LiBObyBjby1wYWNraW5nIHBlcm1pc3Npb24gb3IgcHJvaGliaXRpb24gaXMgc3RhdGVkIGZvciBhbnkgcGFpcjsgbm8gZGVmYXVsdCBwZXJtaXNzaW9uIGlzIGdpdmVuLiIsIml0ZW1zIjpbIk9iamVjdCBBLiIsIk9iamVjdCBCLiJdLCJzaXplcyI6WzEsMV0sImNhcGFjaXR5IjoyfQZtZXRob2Qkc2VhbA=="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x2bB088e4E6Fd1faBBd23d93F38D01f28a954A49c": "agree",
+            "0x560FBD37a10bC2B96F118071e922c9106c12Ba1d": "idle",
+            "0x709a1dDECA594C16AB3864A00Eaa2BB1Cd9b5305": "agree",
+            "0x8ADae333478F9D037c78b0E3E8279DdAAb20a1B3": "agree",
+            "0xe83D7241D0FF0f1f808B9ab3cb06dD2565bDc605": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "review:analyze",
+      "submitted_at": "2026-11-09T13:41:03.755Z",
+      "hash": "0xe00d98033fd96e2dac0dd6504ce50e297f0126bb323a8edcb9a8e25c0ece234e",
+      "receipt": {
+        "hash": "0xe00d98033fd96e2dac0dd6504ce50e297f0126bb323a8edcb9a8e25c0ece234e",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:41:04.025914+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTRyZXZpZXcBBm1ldGhvZDxhbmFseXpl"
+        },
+        "consensus_data": {
+          "votes": {
+            "0x1Cd67946A11E6410a3DF1b27d35F4a511e93c882": "agree",
+            "0x560FBD37a10bC2B96F118071e922c9106c12Ba1d": "agree",
+            "0x722474B013fA39E5aA8785f927dCeB0e3F89815B": "idle",
+            "0x8f1abcAF0fF10678Af925f83b2Bb8b3534c4b94b": "agree",
+            "0xc675c2B7E1F066B7c1D2fe54EF7B76C91CdFa5F4": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "robust:seal",
+      "submitted_at": "2026-11-09T13:41:48.436Z",
+      "hash": "0xf4df8911fcd35890a3014f08a9f8e0504427eda0b7b0d7dd4c198ba7380e9f48",
+      "receipt": {
+        "hash": "0xf4df8911fcd35890a3014f08a9f8e0504427eda0b7b0d7dd4c198ba7380e9f48",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:41:48.733321+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTRyb2J1c3ScDHsicnVsZXMiOiJPbmx5IHBhaXJ3aXNlIHJ1bGVzIGFwcGx5LiBObyBjby1wYWNraW5nIHBlcm1pc3Npb24gb3IgcHJvaGliaXRpb24gaXMgc3RhdGVkIGZvciBhbnkgcGFpcjsgbm8gZGVmYXVsdCBwZXJtaXNzaW9uIGlzIGdpdmVuLiIsIml0ZW1zIjpbIk9iamVjdCBBLiIsIk9iamVjdCBCLiJdLCJzaXplcyI6WzIsMl0sImNhcGFjaXR5IjoyfQZtZXRob2Qkc2VhbA=="
+        },
+        "consensus_data": {
+          "votes": {
+            "0x0cf3809a31B0c7E0742d126451aDE1977e3748D2": "agree",
+            "0x2bB088e4E6Fd1faBBd23d93F38D01f28a954A49c": "idle",
+            "0x711353514049EAc21213834ADd07eF552aF394E6": "agree",
+            "0x8ADae333478F9D037c78b0E3E8279DdAAb20a1B3": "idle",
+            "0xC65Ec56a1141866951B34D846be8EF433764A48B": "agree"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "label": "robust:analyze",
+      "submitted_at": "2026-11-09T13:42:26.164Z",
+      "hash": "0xefcd6ffcdab94f0a1f9b8fb6eec6b38a0af35571e6c542cb67bced675cb68858",
+      "receipt": {
+        "hash": "0xefcd6ffcdab94f0a1f9b8fb6eec6b38a0af35571e6c542cb67bced675cb68858",
+        "from_address": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+        "to_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+        "value": 0,
+        "type": 2,
+        "status": "FINALIZED",
+        "result": 6,
+        "leader_only": false,
+        "execution_mode": "NORMAL",
+        "appealed": false,
+        "created_at": "2026-11-09T13:42:26.439875+00:00",
+        "config_rotation_rounds": 0,
+        "rotation_count": 0,
+        "num_of_initial_validators": 5,
+        "data": {
+          "calldata": "FgRhcmdzFTRyb2J1c3QBBm1ldGhvZDxhbmFseXpl"
+        },
+        "consensus_data": {
+          "votes": {
+            "0x29300188B54F5BFEE91542595611603b4B201008": "agree",
+            "0x2bB088e4E6Fd1faBBd23d93F38D01f28a954A49c": "agree",
+            "0x37CD8552B86b2B662eCfb69C4A1253dBE41EB4C1": "agree",
+            "0x711353514049EAc21213834ADd07eF552aF394E6": "idle",
+            "0xc675c2B7E1F066B7c1D2fe54EF7B76C91CdFa5F4": "idle"
+          },
+          "leader_receipt": [
+            {
+              "mode": "leader",
+              "vote": null,
+              "execution_result": "SUCCESS"
+            },
+            {
+              "mode": "validator",
+              "vote": "agree",
+              "execution_result": "SUCCESS"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "records": [
+    {
+      "id": "optimal",
+      "owner": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+      "expected": "OPTIMAL",
+      "record": {
+        "accepted": {
+          "pairs": [
+            "BLOCK",
+            "ALLOW",
+            "ALLOW"
+          ]
+        },
+        "input": {
+          "capacity": 3,
+          "items": [
+            "Item A, red label.",
+            "Item B, blue label.",
+            "Item C, neutral label."
+          ],
+          "rules": "Only pairwise restrictions apply. Items marked red may not share a bin with items marked blue. All other pairs are allowed.",
+          "sizes": [
+            2,
+            2,
+            1
+          ]
+        },
+        "input_hash": "a9e3acdc3ef18c34d247ae03613a537c21c412a6e0f591ee7affd604ce717c29",
+        "owner": "0xcf81ce0ba3d6e62b8bd7d505e1c51686ba645ead",
+        "proof": {
+          "lower_bound": 2,
+          "possible": {
+            "bins": [
+              [
+                0
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "cost_table": [
+              0,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "feasible_masks": [
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            "minimum": 2
+          },
+          "safe": {
+            "bins": [
+              [
+                0
+              ],
+              [
+                1,
+                2
+              ]
+            ],
+            "cost_table": [
+              0,
+              1,
+              1,
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "feasible_masks": [
+              1,
+              2,
+              4,
+              5,
+              6
+            ],
+            "minimum": 2
+          },
+          "status": "OPTIMAL",
+          "unknown_pairs": [],
+          "upper_bound": 2
+        },
+        "record_id": "optimal",
+        "result_hash": "e1f7b010ea882e0c350ab7973cfa09eec4f55ae74e9396bb3224a5a9d2539ba7",
+        "revision": 1,
+        "state": "OPTIMAL"
+      },
+      "readback_at": "2026-11-09T13:40:18.697Z"
+    },
+    {
+      "id": "review",
+      "owner": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+      "expected": "REVIEW",
+      "record": {
+        "accepted": {
+          "pairs": [
+            "UNKNOWN"
+          ]
+        },
+        "input": {
+          "capacity": 2,
+          "items": [
+            "Object A.",
+            "Object B."
+          ],
+          "rules": "Only pairwise rules apply. No co-packing permission or prohibition is stated for any pair; no default permission is given.",
+          "sizes": [
+            1,
+            1
+          ]
+        },
+        "input_hash": "a97a8b6e5fb0927f970aebd831f054312c73bd4d67a05e259653ae9f4319264f",
+        "owner": "0xcf81ce0ba3d6e62b8bd7d505e1c51686ba645ead",
+        "proof": {
+          "lower_bound": 1,
+          "possible": {
+            "bins": [
+              [
+                0,
+                1
+              ]
+            ],
+            "cost_table": [
+              0,
+              1,
+              1,
+              1
+            ],
+            "feasible_masks": [
+              1,
+              2,
+              3
+            ],
+            "minimum": 1
+          },
+          "safe": {
+            "bins": [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "cost_table": [
+              0,
+              1,
+              1,
+              2
+            ],
+            "feasible_masks": [
+              1,
+              2
+            ],
+            "minimum": 2
+          },
+          "status": "REVIEW",
+          "unknown_pairs": [
+            0
+          ],
+          "upper_bound": 2
+        },
+        "record_id": "review",
+        "result_hash": "bf5cf14a086da3bd1ad0ab1351d0cac1297bfd7794e246bbedf51e02c52c3d51",
+        "revision": 1,
+        "state": "REVIEW"
+      },
+      "readback_at": "2026-11-09T13:41:48.432Z"
+    },
+    {
+      "id": "robust",
+      "owner": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+      "expected": "OPTIMAL",
+      "record": {
+        "accepted": {
+          "pairs": [
+            "UNKNOWN"
+          ]
+        },
+        "input": {
+          "capacity": 2,
+          "items": [
+            "Object A.",
+            "Object B."
+          ],
+          "rules": "Only pairwise rules apply. No co-packing permission or prohibition is stated for any pair; no default permission is given.",
+          "sizes": [
+            2,
+            2
+          ]
+        },
+        "input_hash": "ff76f155ffcf19504eae2ca889d5ba333f74ee5231e62d2210e444cc0e45d193",
+        "owner": "0xcf81ce0ba3d6e62b8bd7d505e1c51686ba645ead",
+        "proof": {
+          "lower_bound": 2,
+          "possible": {
+            "bins": [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "cost_table": [
+              0,
+              1,
+              1,
+              2
+            ],
+            "feasible_masks": [
+              1,
+              2
+            ],
+            "minimum": 2
+          },
+          "safe": {
+            "bins": [
+              [
+                0
+              ],
+              [
+                1
+              ]
+            ],
+            "cost_table": [
+              0,
+              1,
+              1,
+              2
+            ],
+            "feasible_masks": [
+              1,
+              2
+            ],
+            "minimum": 2
+          },
+          "status": "OPTIMAL",
+          "unknown_pairs": [
+            0
+          ],
+          "upper_bound": 2
+        },
+        "record_id": "robust",
+        "result_hash": "7431720a61d7c6127fdf549495eed574a47750578ace04d2602fd2e4b7d4ec52",
+        "revision": 1,
+        "state": "OPTIMAL"
+      },
+      "readback_at": "2026-11-09T13:43:27.094Z"
+    }
+  ],
+  "run_owner": "0xCF81Ce0Ba3D6e62B8bd7D505E1C51686bA645eAd",
+  "source_sha256": "60816f215cf6f52ed19a9cfecc642faeeac2a54aef24aa4011d9a6a5bee0aadf",
+  "contract_address": "0x467b8a2D10c00b8604efe3d84a9E083E97c8c783",
+  "source_verified": true,
+  "completed_at": "2026-11-09T13:43:27.099Z",
+  "receipt_format": "selected original fields; complete unmodified journal in raw-live.json.gz",
+  "raw_archive_sha256": "3573a62258bf57542bf786a0c63f2e0a27cd5998fb0d67536369847166f12a5d"
+}
